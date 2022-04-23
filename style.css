@@ -1,0 +1,341 @@
+body {
+    background-color: #141414;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+
+    display: block;
+    background-color: black;
+    margin: auto;
+    overflow: hidden;
+    border: solid #532AA4;
+
+}
+@font-face {
+    font-family: zector;
+    src: url(/fontes/Zector.otf);
+  }
+
+  @font-face {
+    font-family: leagueSpartan;
+    src: url(/fontes/LeagueSpartan-Bold.otf);
+  }
+
+/*===========================Mensagem de Frete ==================================*/
+
+#frete {
+    background-color: #532AA4;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    font-size: large;
+}
+
+/*===========================Menu Superior==================================*/
+
+.menu {
+
+    list-style: none;
+    padding: 0;
+    margin-right: 300px;
+    float: right;
+    margin-left: 50px;
+    list-style-type: none;
+
+}
+
+.top:link {
+    color: white;
+    text-decoration: none;
+}
+
+.top:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.top:hover {
+    color: #532AA4
+}
+
+.car:hover {
+    background-color: #532AA4;
+    display: block;
+    border-radius: 8%;
+}
+
+.menusuperior {
+
+    display: inline-block;
+    color: white;
+    margin-top: 45px;
+    font-size: 20px;
+    margin-right: 45px;
+    font-family: zector;
+}
+
+
+
+.carrinho {
+    display: inline-block;
+    color: white;
+    margin-top: 45px;
+    margin-left: 80px;
+
+
+
+}
+
+.logo {
+    float: left;
+    color: white;
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 500px) {
+
+    .logo {
+        float: none;
+        text-align: center;
+
+    }
+
+    .menu {
+        margin-top: 20px;
+        float: none;
+        text-align: center;
+
+    }
+
+    .menu1 {
+        float: none;
+        margin-bottom: 5px;
+        padding: 10px;
+
+    }
+}
+
+/*===========================   MEIO DO SITE   ======================*/
+
+/*===========================  Banner ==================================*/
+
+#banner {
+    display: block;
+    margin: auto;
+    padding: auto;
+    border: solid black 40px;
+
+}
+
+
+/*===========================  Banners de Categoria ==================================*/
+
+/*==================================  Titulo =========================================*/
+
+.titulocategorias/*Div*/
+    {
+    background-image: linear-gradient(to right, #532AA4, #330d80);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    border-radius: 8%;
+    width:60%;
+    
+}
+
+#titulocategorias
+
+/*H1*/
+    {
+
+    text-align: center;
+    font-size: 50px;
+    padding-top: 80px;
+    font-family: leagueSpartan;
+    color: rgba(255, 255, 255, );
+    padding: 0;
+    margin: 5%;
+}
+
+/*===========================  Banners de Categoria ==================================*/
+
+.banners/*div*/
+    {
+    display: block;
+    margin: auto;
+    padding-top: 30px;
+    border-radius: 5%;
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: black;
+
+}
+
+#banneracessorios/*imagem*/
+    {
+    border: solid 10px #532AA4;
+    margin: 5%;
+    border-radius: 5%;
+}
+
+.bannerroupas/*div*/
+{
+    display: block;
+    margin: auto;
+    padding-top: 30px;
+    border-radius: 5%;
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-right: 50px;
+    background-color: black;
+
+}
+
+#bannerroupas/*imagem*/
+    {
+    border: solid 10px #532AA4;
+    margin: 5%;
+    border-radius: 5%;
+}
+/*===========================  Banner  de seguro ==================================*/
+#seguro /*imagem*/ {
+    display: block;
+    margin: auto;
+    padding-top: 30px;
+    margin-right: 50%;
+    border-radius: 5%;
+    margin-top: 90%;
+}
+
+#secure /*div*/ {
+    background-color: white;
+    width: 630px;
+    margin-right: 50;
+    padding: auto;
+    border-radius: 5%;
+    border-left: white solid 30px;
+
+
+}
+
+
+/*============================== Footer ============================================*/
+
+footer {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    display: block;
+    margin-top: 100%;
+
+
+}
+
+.logofooter {
+    margin-left: 5%;
+    color: white;
+    padding: 20px;
+}
+
+hr {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.footer {
+    display: flex;
+    padding: 8px;
+
+}
+
+
+/*==================================== Contatos ====================================*/
+
+#contatosdiv {
+    padding-top: 0;
+    display: flex;
+    outline: none;
+    border: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: zector;
+}
+
+#contatos {
+    margin: auto;
+    padding-top: 30px;
+
+}
+
+.contato1 {
+    list-style-image: url(/icones/email.PNG)
+}
+
+.contato2 {
+    list-style-image: url(/icones//telefone.PNG)
+}
+
+
+/*================================ menu inferior ========================================*/
+
+#menuinferiordiv {
+    display: flex;
+    outline: none;
+    border: none;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    padding-left: 150px;
+    font-family: zector;
+}
+
+.menuinferior {
+
+    text-decoration: none;
+    text-align: left;
+    margin: 0;
+    padding-top: 0;
+    list-style: none;
+
+}
+
+.menu2 {
+    padding-bottom: 8px;
+    text-decoration: underline;
+
+}
+
+.mailto {
+    color: white;
+    text-decoration: none;
+}
+
+.mailto:hover {
+    color: #532AA4;
+
+}
+
+.bottom:visited {
+    text-decoration: none;
+    color: white;
+
+}
+
+.bottom:hover {
+    color: #532AA4;
+}
+
+#pagamentos {
+    margin-left: 70%;
+}
+
+/*======================================================================================*/
